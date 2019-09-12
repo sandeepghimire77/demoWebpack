@@ -1,0 +1,19 @@
+/* diese sind default in bootstrap . */
+
+/* $grid-breakpoints: map-merge(
+                (
+                        xs: 0,
+                        sm: 576px,
+                        md: 768px,
+                        lg: 992px,
+                        xl: 1200px
+                ),
+                $grid-breakpoints
+);   */
+
+/* Dies sind unsere benutzerdefinierten CSS übergreifenden Standard-Bootstraps */
+
+$grid-breakpoints: (
+        sm: 500px,
+        xxl: 1440px
+);

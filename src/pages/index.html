@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' data: fonts.gstatic.com;">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="../dist/css/icon-font.css">
+        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+        <script src="../../dist/main.b81f904d67adaa1d4765.js"></script>
+        
+        <title>demo-freenet Webpack, Scss, Bootstrap 4, Javascript</title>
+    </head>
+    
+    <body>
+
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Glozzom</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="2_2_basic_typography.html" class="nav-link">Typography</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <div class="container mt-5">
+        <!--################START HERE################-->
+
+        <!-- BUTTONS -->
+        <button class="btn btn-primary" type="button">Primary</button>
+        <button class="btn btn-secondary" type="button">Secondary</button>
+        <button class="btn btn-success" type="button">Success</button>
+        <button class="btn btn-info btn--green" type="button">Info</button>
+        <button class="btn btn-warning" type="button">Warning</button>
+        <button class="btn btn-danger" type="button">Danger</button>
+        <button class="btn btn-light" type="button">Light</button>
+        <button class="btn btn-dark" type="button">Dark</button>
+        <button class="btn btn-link" type="button">Link</button>
+
+        <br>
+        <br>
+
+        <!-- BUTTON TAGS/TYPES -->
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button class="btn btn-success" type="submit">Button</button>
+        <input class="btn btn-light" type="button" value="Input">
+        <input class="btn btn-warning" type="submit" value="Submit">
+        <input class="btn btn-info" type="reset" value="Reset">
+
+        <br>
+        <br>
+
+        <!-- OUTLINE BUTTONS -->
+        <button class="btn btn-outline-primary" type="button">Primary Outline</button>
+        <button class="btn btn-outline-secondary" type="button">Secondary Outline</button>
+        <button class="btn btn-outline-success" type="button">Success Outline</button>
+        <button class="btn btn-outline-info" type="button">Info Outline</button>
+        <button class="btn btn-outline-warning" type="button">Warning Outline</button>
+        <button class="btn btn-outline-danger" type="button">Danger Outline</button>
+        <button class="btn btn-outline-light" type="button">Light Outline</button>
+        <button class="btn btn-outline-dark" type="button">Dark Outline</button>
+
+        <br>
+        <br>
+
+        <!-- BUTTON SIZES -->
+        <button class="btn btn-primary btn-lg" type="button">
+            <i class="fas fa-user"></i> Large button</button>
+        <button class="btn btn-success btn-sm" type="button">Small button</button>
+        <br>
+        <br>
+        <button class="btn btn-dark btn-block" type="button">Block level button</button>
+
+        <br>
+        <br>
+
+
+
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+
+    </body>
+</html>
